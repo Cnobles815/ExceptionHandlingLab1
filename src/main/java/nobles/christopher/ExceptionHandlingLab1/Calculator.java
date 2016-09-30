@@ -18,11 +18,15 @@ public class Calculator {
 
     public static int divide (int a, int b)
             throws DivisionByZeroException{
+        if (a == 0 || b == 0) {
+            throw new DivisionByZeroException();
+        }
         return (a / b);
     }
 
-    public static double squareRoot (int a)
-            throws ComplexNumberException{
-        return Math.sqrt(a);
-    }
+    //I plainly do not understand what a complex number is/does so I cannot write a method for it
+//    public static double squareRoot (int a)
+//            throws ComplexNumberException{
+//        return Math.sqrt(a);
+//    }
 }
