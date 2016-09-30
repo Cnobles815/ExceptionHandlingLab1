@@ -30,11 +30,11 @@ public class CalculatorTEST {
         int actualValue = calculator.multiply(2, 2);
         assertEquals("The value should be 4" , expectedValue, actualValue);
     }
-    @Test
-    public void divideTEST(){
-        Calculator calculator = new Calculator();
-        int expectedValue = 4;
-        int actualValue = calculator.divide(20, 5);
-        assertEquals("The value should be 4" , expectedValue, actualValue);
-    }
+//    @Test
+//    public void divideTEST(){
+//        Calculator calculator = new Calculator();
+//        int expectedValue = 4;
+//        int actualValue = calculator.divide(20, 5);
+//        assertEquals("The value should be 4" , expectedValue, actualValue);
+//    }
 }
